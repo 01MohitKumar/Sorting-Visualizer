@@ -18,6 +18,8 @@ const SECONDARY_COLOR = "red";
 //  This is our arrayBar classes that is given to every bar.
 const arrayBars = document.getElementsByClassName("arrayBars");
 
+const currentYear = new Date().getFullYear();
+
 const SortingVisualizer = () => {
   const [array, setArray] = useState([]);
 
